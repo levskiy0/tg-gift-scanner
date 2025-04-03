@@ -16,7 +16,7 @@ A utility for scanning Telegram gift NFTs and collecting statistics on models an
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/gifts-scanner.git
+git clone https://github.com/levskiy0/tg-gift-scanner
 cd gifts-scanner
 go build
 ```

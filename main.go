@@ -66,7 +66,11 @@ func main() {
 
 	pterm.Println("\033[H\033[2J")
 	pterm.DefaultHeader.WithBackgroundStyle(pterm.NewStyle(pterm.BgCyan)).WithTextStyle(pterm.NewStyle(pterm.FgBlack)).Println("Telegram Gift Scanner - Final Results")
-	pterm.Info.Printf("Checked: %d gifts, Available: %d\n\n", count, stats.Available)
+	pterm.Println("")
+	pterm.Info.Printf("Checked: %d gifts", count)
+	pterm.Println("")
+	pterm.Info.Printf("Available: %d gifts", stats.Available)
+	pterm.Println("")
 
 	type ModelCount struct {
 		Model  string
